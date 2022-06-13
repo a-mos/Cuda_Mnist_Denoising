@@ -17,6 +17,8 @@ Tested with CUDA 11.6, NVCC 11.6, Ubuntu 20.04
     ./denoiser {input_img_path} [optional -benchmark N]
     if N > 0 runs multiple times and measure time 
 
+## Model training
+Trainig in `Model training.ipynb` follows https://keras.io/examples/vision/autoencoder/ with added weights export to binary file. 
 
 ## Optimizations
 
